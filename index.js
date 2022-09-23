@@ -33,7 +33,7 @@ const originalFlavors = [
   "Strawberry",
   "Vanilla",
   "Vanilla Burnt Almond"
-]
+];
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1: Copy the Array! 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 We have an array called originalFlavors with 31 flavors (see above).  In these tasks, we will be reading and writing data to this array.  
@@ -46,9 +46,40 @@ Use the copy function below to do the following:
 */
 
 
-function copy(/*your code here*/){
-  /*your code here*/
-}
+
+  function copy(originalFlavors){
+    "Banana Nut Fudge",
+    "Black Walnut",
+    "Burgundy Cherry",
+    "Butterscotch Ribbon",
+    "Cherry Macaron",
+    "Chocolate",
+    "Chocolate Almond",
+    "Chocolate Chip",
+    "Chocolate Fudge",
+    "Chocolate Mint",
+    "Chocolate Ribbon",
+    "Coffee",
+    "Coffee Candy",
+    "Date Nut",
+    "Eggnog",
+    "French Vanilla",
+    "Green Mint Stick",
+    "Lemon Crisp",
+    "Lemon Custard",
+    "Lemon Sherbet",
+    "Maple Nut",
+    "Orange Sherbet",
+    "Peach",
+    "Peppermint Fudge Ribbon",
+    "Peppermint Stick",
+    "Pineapple Sherbet",
+    "Raspberry Sherbet",
+    "Rocky Road",
+    "Strawberry",
+    "Vanilla",
+    "Vanilla Burnt Almond"
+};
 
 
 
@@ -63,9 +94,10 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(/*your code here*/){
-  /*your code here*/
+function is31Flavors(){
+  
  }
+
 
 
 
@@ -82,9 +114,10 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(/*your code here*/){
-  /*your code here*/
+function addFlavor(originalFlavors, newFlavor){
+  originalFlavors.push(newFlavor);
  }
+console.log(originalFlavors);
 
 
 
@@ -100,9 +133,10 @@ Use the removeLastFlavor function below to do the following:
 */
 
 
-function removeLastFlavor(/*your code here*/){
- /*your code here*/
+function removeLastFlavor(originalFlavors){
+ originalFlavors.pop('Rainbow Sherbert');
 }
+console.log(originalFlavors);
 
 
 
@@ -118,10 +152,10 @@ Use the getFlavorByIndex function below to do the following:
 */
 
 
-function getFlavorByIndex(/*your code here*/){
-  /*your code here*/
+function getFlavorByIndex(originalFlavors){
+  originalFlavors.indexOf(Chocolate, 6);
 }
-
+console.log(originalFlavors);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -138,10 +172,12 @@ Use the removeFlavorByName function below to do the following:
   HINT: You can use .splice() for this
 */
 
-function removeFlavorByName(/*your code here*/){
-  /*your code here*/
+function removeFlavorByName(originalFlavors){
+  originalFlavors.splice(Vanilla);
 }
-
+console.log(originalFlavors);
+originalFlavors.length;
+console.log(originalFlavors);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -163,10 +199,10 @@ Use the filterByWord function below to do the following:
 */
 
 
-function filterByWord(/*your code here*/){
-  /*your code here*/
+function filterByWord(originalFlavors){
+  originalFlavors.includes(Vanilla);
 }
-
+console.log(originalFlavors);
 
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
@@ -181,10 +217,10 @@ Use the getAverageWordLength function below to do the following:
   For example: getAverageWordLength(originalFlavors) should return a number between 0 and 3.     
 */
 
-function getAverageWordLength(/*code here*/){
-  /*code here*/
+function getAverageWordLength(originalFlavors){
+  originalFlavors.Length;
 }
-
+console.log(originalFlavors);
 
 /* 💪💪💪💪💪💪💪💪💪💪 STRETCH 2: 💪💪💪💪💪💪💪💪💪
 Baskin Robins now offers new flavors, seasonal flavors, and even regional flavors. Write a function that will randomly select a total of 31 flavors 
@@ -199,10 +235,10 @@ Use the getRandomFlavors function and new arrays below to do the following:
 */
 
 
-function getRandomFlavors(/*code here*/){
-  /*code here*/
+function getRandomFlavors(originalFlavors, newFlavors, seasonalFlavors, regionalFlavors){
+  random = Math.floor(Math.random()* getRandomFlavors.length);
 }
-
+console.log(getRandomFlavors.random);
 // NEW DATA ARRAYS FOR STRETCH 2 ⬇️
 // const newFlavors = [
 //   "Date night",
